@@ -26,6 +26,7 @@ cambiarPath() {
   pwd
 }
 
+
 while [ "$hostOP" != 5 ]
 echo -e "\n Que deseas hacer?:\n [1] Crear directorio.\n [2] Eliminar directorio.\n [3] Cambiar de ruta.\n [4] Mostrar directorios de la ruta actual.\n [5] Salir.\n "
 read -r hostOP
@@ -36,20 +37,24 @@ do
   crearDir
   fi
 
+
   if [ "$hostOP" = 2 ];
   then
   eliminarDir
   fi
+
 
   if [ "$hostOP" = 3 ];
   then
   cambiarPath
   fi
   
+
   if [ "$hostOP" = 4 ];
   then
   actualDir
   fi
+
 
   if [ "$hostOP" = 5 ];
   then
