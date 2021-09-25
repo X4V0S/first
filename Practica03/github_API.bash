@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-#token="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" #token
 user="codingforentrepreneurs" #usuario a investigar
 
 echo -e "\n Esta es la informacion del usuario: $user\n"
