@@ -1,0 +1,105 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20211022210605
+Nombre de usuario: LAPTOP-D2NV1RIK\javie
+Usuario RunAs: LAPTOP-D2NV1RIK\javie
+Nombre de la configuración: 
+Máquina: LAPTOP-D2NV1RIK (Microsoft Windows NT 10.0.19042.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\javie\.vscode\extensions\ms-vscode.powershell-2021.10.1\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2021.10.1' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\javie\.vscode\extensions\ms-vscode.powershell-2021.10.1\modules' -EnableConsoleRepl -StartupBanner '=====> PowerShell Integrated Console v2021.10.1 <=====
+' -LogLevel 'Normal' -LogPath 'c:\Users\javie\.vscode\extensions\ms-vscode.powershell-2021.10.1\logs\1634953739-3fe9a646-fef8-42cb-91d7-dc4e5e4132411634953735978\EditorServices.log' -SessionDetailsPath 'c:\Users\javie\.vscode\extensions\ms-vscode.powershell-2021.10.1\sessions\PSES-VSCode-7612-275575' -FeatureFlags @() 
+Id. de proceso: 9892
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es .\transcript.txt
+Mi IP local
+
+
+IPAddress         : 172.25.16.1
+InterfaceIndex    : 49
+InterfaceAlias    : vEthernet (WSL)
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 20
+PrefixOrigin      : Manual
+SuffixOrigin      : Manual
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 169.254.143.93
+InterfaceIndex    : 16
+InterfaceAlias    : Local Area Connection* 4
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 16
+PrefixOrigin      : WellKnown
+SuffixOrigin      : Link
+AddressState      : Tentative
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 169.254.94.47
+InterfaceIndex    : 11
+InterfaceAlias    : Local Area Connection* 3
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 16
+PrefixOrigin      : WellKnown
+SuffixOrigin      : Link
+AddressState      : Tentative
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 192.168.0.104
+InterfaceIndex    : 17
+InterfaceAlias    : Wi-Fi
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 24
+PrefixOrigin      : Dhcp
+SuffixOrigin      : Dhcp
+AddressState      : Preferred
+ValidLifetime     : 16:33:02
+PreferredLifetime : 16:33:02
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 127.0.0.1
+InterfaceIndex    : 1
+InterfaceAlias    : Loopback Pseudo-Interface 1
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 8
+PrefixOrigin      : WellKnown
+SuffixOrigin      : WellKnown
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+Mi IP publica
+187.160.100.43
+Escaneo a mi segmento de red privado
+
+Escaneo a una IP de mi segmento con un script
+
+#Escaneo a una IP publica
+
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20211022210721
+**********************
